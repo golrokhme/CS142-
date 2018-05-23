@@ -1,0 +1,32 @@
+.nowrap{
+	white-space: nowrap;
+}
+.box{
+	margin-right:10px;
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	border-style: none none none dotted;
+	background-color: #eeeff2;
+	border-width: 10px;
+	border-color: #D0D0FF;
+}
+
+#F{
+	margin-right:0px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.text {
+	margin-top: 10px;
+	margin-left: 10px;
+	font: tahoma;
+	font-size: 40px;
+}
+
+.box:hover{
+	background-color: yellow;
+	color: goldenrod;
+	cursor: pointer;
+}
